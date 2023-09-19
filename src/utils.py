@@ -17,6 +17,7 @@ db=os.environ.get('db')
 
 
 def read_sql_data():
+    
     logging.info("Reading SQL database started")
     try:
         mydb=pymysql.connect(
